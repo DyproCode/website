@@ -3,6 +3,10 @@ html {
   scroll-padding-top: 10%;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .fullscreen {
   height: 100vh;
   scroll-snap-align: start;
@@ -24,7 +28,7 @@ p {
 .textBubble {
   background-color: #005148;
   border-radius: 20px;
-  padding: 1%;
+  padding: 3%;
   margin-top: 1%;
   margin-bottom: 1%;
 }
@@ -74,4 +78,35 @@ iframe {
 
 .sectionHeader {
   margin-bottom: 2%
+}
+
+.titleImage {
+    content: url('assets/TitleImageDesktop.png');
+  }
+
+@media (max-width: 600px) {
+  .fullscreen {
+    height: auto;
+  }
+
+  .titleImage {
+    content: url('assets/TitleImageMobile.png');
+  }
+
+  #navbarNav {
+    margin-left: 0%
+  }
+
+  .navItem {
+    font-size: 1.5rem;
+  }
+
+  .videoSection {
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+
+  #iconList {
+    display: none;
+  }
 }

@@ -11,13 +11,20 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
       <div class="container-fluid">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
         <a class="navbar-brand" href="#imageCarousel" id="name">Dylan Proctor</a>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link navItem" href="#About">About</a>
@@ -51,7 +58,7 @@
     <div id="imageCarousel" class="carousel slide fullscreen" data-bs-ride="carousel" data-bs-interval="3000">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="assets/TitleImage2.png" class="rotatingImage" alt="Photo 1">
+          <img src="assets/TitleImageDesktop.png" class="rotatingImage titleImage" alt="Photo 1">
         </div>
       </div>
     </div>
@@ -91,13 +98,13 @@
       <div class="container">
         <h2 class="sectionHeader">Projects</h2>
         <div class="row justify-content-center g-5">
-          <div class="col-md-6">
+          <div class="col-12 col-md-6 videoSection">
             <h3>Agent Grader App</h3>
             <div class="ratio ratio-16x9">
               <iframe src="https://www.youtube.com/embed/-chdpoGqNhw" allowfullscreen></iframe>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-12 col-md-6 videoSection">
             <h3>Martian's Duty</h3>
             <div class="ratio ratio-16x9">
               <iframe src="https://www.youtube.com/embed/DK-2b4kt-e0" allowfullscreen></iframe>
@@ -110,13 +117,6 @@
     <div id="Resume" class="fullscreen">
       <div class="container">
         <h2 class="sectionHeader">Resume</h2>
-        <div>
-          </script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"
-          >
-        </div>
         <div style="width:80%; height:80%; margin:auto;">
           <iframe
             src="assets/DylanProctorResume2025.pdf#zoom=page-fit"
